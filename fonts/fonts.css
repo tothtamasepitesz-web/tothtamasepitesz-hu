@@ -1,0 +1,74 @@
+/* ==========================================================
+   Tóth Tamás Építész — webfont készlet
+   Satoshi (törzsszöveg) + Paralucent (kiemelt címek)
+   Elérési út: a .woff2 fájlok a fonts.css-sel AZONOS mappában
+   ========================================================== */
+
+/* ---------- SATOSHI ---------- */
+@font-face {
+  font-family: 'Satoshi';
+  src: url('Satoshi-Light.woff2') format('woff2');
+  font-weight: 300; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: 'Satoshi';
+  src: url('Satoshi-LightItalic.woff2') format('woff2');
+  font-weight: 300; font-style: italic; font-display: swap;
+}
+@font-face {
+  font-family: 'Satoshi';
+  src: url('Satoshi-Regular.woff2') format('woff2');
+  font-weight: 400; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: 'Satoshi';
+  src: url('Satoshi-Italic.woff2') format('woff2');
+  font-weight: 400; font-style: italic; font-display: swap;
+}
+@font-face {
+  font-family: 'Satoshi';
+  src: url('Satoshi-Medium.woff2') format('woff2');
+  font-weight: 500; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: 'Satoshi';
+  src: url('Satoshi-MediumItalic.woff2') format('woff2');
+  font-weight: 500; font-style: italic; font-display: swap;
+}
+@font-face {
+  font-family: 'Satoshi';
+  src: url('Satoshi-Bold.woff2') format('woff2');
+  font-weight: 700; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: 'Satoshi';
+  src: url('Satoshi-BoldItalic.woff2') format('woff2');
+  font-weight: 700; font-style: italic; font-display: swap;
+}
+@font-face {
+  font-family: 'Satoshi';
+  src: url('Satoshi-Black.woff2') format('woff2');
+  font-weight: 900; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: 'Satoshi';
+  src: url('Satoshi-BlackItalic.woff2') format('woff2');
+  font-weight: 900; font-style: italic; font-display: swap;
+}
+
+/* ---------- PARALUCENT ---------- */
+@font-face {
+  font-family: 'Paralucent';
+  src: url('Paralucent-Light.woff2') format('woff2');
+  font-weight: 300; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: 'Paralucent';
+  src: url('Paralucent-Medium.woff2') format('woff2');
+  font-weight: 500; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: 'Paralucent';
+  src: url('Paralucent-DemiBold.woff2') format('woff2');
+  font-weight: 600; font-style: normal; font-display: swap;
+}

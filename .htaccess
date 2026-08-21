@@ -1,0 +1,14 @@
+# ── 301 átirányítások: régi (import) URL-ek → aktuális oldalak ──
+# Megszünteti a 404-eket és a duplikált tartalmat. A szabályok a mappák
+# kiszolgálása előtt futnak, így akkor is érvényesek, ha a régi mappa fent maradt.
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteRule ^meresz-formak-lejtos-telken/?$          /munkak.html#haz [R=301,L]
+  RewriteRule ^minimalista-eleterzes-budan/?$          /munkak.html#haz [R=301,L]
+  RewriteRule ^full-minimal/?$                         /munkak.html#haz [R=301,L]
+  RewriteRule ^modern-koernyezetben/?$                 /csaladi-haz-pomaz-modern/ [R=301,L]
+  RewriteRule ^dunapart-koezeleben/?$                  /nyaralo-dunabogdany/ [R=301,L]
+  RewriteRule ^ivek-jateka-minimalista-stilusban/?$    /szabadidokozpont-veresegyhaz/ [R=301,L]
+  RewriteRule ^csaladi-hazak/?$                        /munkak.html#haz [R=301,L]
+  RewriteRule ^tarsashazak/?$                          /munkak.html#tarsashaz [R=301,L]
+</IfModule>
